@@ -50,7 +50,6 @@
         </div>
         <div class="texto-hotkey">
           <p>Placa:{{item.placa}}</p>
-          <p>{{item.id}}</p>
         </div>
       </div>
     </div>
@@ -109,8 +108,14 @@ import Header from "../components/Header-index.vue";
 
 export default {
   components: { Header},
+  mounted: function pegaId() {
+    for(let elemento of this.carrosSemPlaca){
+  this.idCarros.push(elemento.id);
+}
+  },
   data() {
     return {
+      idCarros: [],
       carrosSemPlaca: [
         { id: 90, placa: "AHW9I98" },
 
