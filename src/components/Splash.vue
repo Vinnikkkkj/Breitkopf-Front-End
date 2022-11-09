@@ -2,7 +2,7 @@
     <div>
         <div class="splash" v-if="splashCarregando">
             <h1 class="intro">
-                <span class="logo"><img src="../assets/img-grupo-removebg-preview.png" alt="">
+            <span class="logo"><img src="../assets/AutoMe_Positivo (1).png" alt="">
 </span>
             </h1>
         </div>

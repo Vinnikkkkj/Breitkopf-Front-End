@@ -7,7 +7,7 @@
       <p>Texto longo com mais detalhes</p>
     </div>
     <div class="hotkey">
-      <div class="hotkey-card"  v-for="item in carrosSemPlaca" :key="item.placa">
+      <div class="hotkey-card" v-for="item in carrosSemPlaca" :key="item.placa">
         <div class="hotkey-photo">
           <svg
             width="25"
@@ -49,54 +49,144 @@
           </svg>
         </div>
         <div class="texto-hotkey">
-          <p>Placa:{{item.placa}}</p>
+          <p>Placa:{{ item.placa }}</p>
         </div>
       </div>
     </div>
     <div class="footer-index">
       <div class="esquerda-footer">
         <div class="avancar">
-          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="1" width="34" height="34" rx="7" fill="white"/>
-<path d="M15 24L21 18L15 12" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="1" y="1" width="34" height="34" rx="7" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
-</svg>
-
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="1" y="1" width="34" height="34" rx="7" fill="white" />
+            <path
+              d="M15 24L21 18L15 12"
+              stroke="#111111"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <rect
+              x="1"
+              y="1"
+              width="34"
+              height="34"
+              rx="7"
+              stroke="#111111"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
         </div>
         <div class="avancar">
-          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="1" width="34" height="34" rx="7" fill="white"/>
-<path d="M15 24L21 18L15 12" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="1" y="1" width="34" height="34" rx="7" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
-</svg>
-
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="1" y="1" width="34" height="34" rx="7" fill="white" />
+            <path
+              d="M15 24L21 18L15 12"
+              stroke="#111111"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <rect
+              x="1"
+              y="1"
+              width="34"
+              height="34"
+              rx="7"
+              stroke="#111111"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
         </div>
       </div>
       <div class="meio-footer">
-        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0.978638 23.6205H23.62V0.979126H0.978638V23.6205Z" stroke="#111111" stroke-width="1.78748" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.5118 15.2789L6.34106 11.1082L0.978638 17.6622" stroke="#111111" stroke-width="1.78748" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23.62 17.6622L15.8743 8.72485L8.72437 17.6622" stroke="#111111" stroke-width="1.78748" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="8.12854" cy="5.74573" r="1.78748" stroke="#111111" stroke-width="1.78748"/>
-</svg>
-
+        <h1>Nova Avaliação</h1>
+        <svg
+          width="24"
+          height="25"
+          viewBox="0 0 24 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.9 5.20833C15.7 4.58333 15.1 4.16666 14.5 4.16666H3.5C2.8 4.16666 2.3 4.58333 2.1 5.20833L0 11.4583V19.7917C0 20.3125 0.5 20.8333 1 20.8333H2C2.5 20.8333 3 20.3125 3 19.7917V18.75H7.3C7.1 18.125 7 17.3958 7 16.6667C7 14.1667 8.1 11.9792 9.7 10.4167H2L3.5 5.72916H14.5L15.3 8.33333C15.9 8.33333 16.5 8.4375 17 8.64583L15.9 5.20833ZM3.5 12.5C4.3 12.5 5 13.2292 5 14.0625C5 14.8958 4.3 15.625 3.5 15.625C2.7 15.625 2 14.8958 2 14.0625C2 13.2292 2.7 12.5 3.5 12.5Z"
+            fill="black"
+          />
+          <path
+            d="M12.8 13.3846H11.8667V15.2308H10V16.1538H11.8667V18H12.8V16.1538H14.6667V15.2308H12.8V13.3846ZM14.9 12.4985V13.3385L16.0667 13.1077V18H17V12L14.9 12.4985Z"
+            fill="black"
+          />
+        </svg>
       </div>
       <div class="direita-footer">
         <div class="avancard">
-          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="1" width="34" height="34" rx="7" fill="white"/>
-<path d="M15 24L21 18L15 12" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="1" y="1" width="34" height="34" rx="7" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
-</svg>
-
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="1" y="1" width="34" height="34" rx="7" fill="white" />
+            <path
+              d="M15 24L21 18L15 12"
+              stroke="#111111"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <rect
+              x="1"
+              y="1"
+              width="34"
+              height="34"
+              rx="7"
+              stroke="#111111"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
         </div>
         <div class="avancard">
-          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="1" width="34" height="34" rx="7" fill="white"/>
-<path d="M15 24L21 18L15 12" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="1" y="1" width="34" height="34" rx="7" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
-</svg>
-
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="1" y="1" width="34" height="34" rx="7" fill="white" />
+            <path
+              d="M15 24L21 18L15 12"
+              stroke="#111111"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <rect
+              x="1"
+              y="1"
+              width="34"
+              height="34"
+              rx="7"
+              stroke="#111111"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -107,9 +197,11 @@
 import Header from "../components/Header-index.vue";
 
 export default {
-  components: { Header},
+  components: { Header },
   mounted: function pegaId() {
-    let idCarros = this.carrosSemPlaca.map(function (e) { return e.id; });
+    let idCarros = this.carrosSemPlaca.map(function (e) {
+      return e.id;
+    });
   },
   data() {
     return {
@@ -358,7 +450,7 @@ export default {
     flex-direction: column;
     align-items: center;
     padding: 6px 6px 0px;
-    
+
     gap: 10px;
     background: #ebebf0;
     box-shadow: 0px 1px 2px rgba(52, 87, 140, 0.14);
@@ -417,7 +509,7 @@ export default {
     transform: rotate(180deg);
     display: flex;
     align-items: center;
-    
+
     justify-content: center;
   }
   .avancard {
@@ -432,8 +524,16 @@ export default {
     border: 2.4px solid #d5d5de;
     border-radius: 4.8px;
     display: flex;
+    gap: 8px;
     align-items: center;
     justify-content: center;
-}
+  }
+  .meio-footer h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 </style>
